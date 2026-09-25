@@ -1,0 +1,101 @@
+08. PROJECT DEMONSTRATION
+
+Project Title
+
+LegalEaseAI – AI-Powered Legal Document Generator
+
+1. Introduction
+
+The project demonstration is the final phase of the project. In this phase, the team demonstrates the complete working of LegalEaseAI and explains its purpose, features, technologies, workflow, and final output.
+
+2. Project Introduction
+
+Our project is called LegalEaseAI – AI-Powered Legal Document Generator.
+
+The main purpose of this project is to help users generate structured legal document drafts using Generative AI.
+
+3. Problem
+
+Preparing legal documents manually can be time-consuming and difficult for users who are not familiar with legal document formats.
+
+4. Solution
+
+LegalEaseAI provides a simple interface where users can enter their requirements and generate a structured document using Generative AI.
+
+5. Technologies Used
+
+1. Python
+2. FastAPI
+3. Jinja2
+4. HTML
+5. CSS
+6. Generative AI
+7. GitHub
+
+6. Demonstration Steps
+
+Step 1
+
+Open the LegalEaseAI application.
+
+Step 2
+
+Show the home page.
+
+Step 3
+
+Select the required document type.
+
+Step 4
+
+Enter the required information.
+
+Step 5
+
+Click the Generate button.
+
+Step 6
+
+Show how the request is processed by the backend.
+
+Step 7
+
+Show the AI-generated document.
+
+Step 8
+
+Explain the generated output.
+
+Step 9
+
+Show the download/save option.
+
+7. Benefits
+
+1. Easy to use.
+2. Saves time.
+3. Reduces repetitive work.
+4. Provides structured document drafts.
+5. Uses Generative AI.
+6. Provides a simple web interface.
+
+8. Final Outcome
+
+The final outcome is a working AI-powered web application that accepts user requirements and generates a structured legal document draft.
+
+9. Demo Video
+
+The complete project demonstration should include:
+
+1. Project introduction
+2. Problem statement
+3. Proposed solution
+4. Technologies used
+5. Application execution
+6. Working process
+7. Final output
+8. Benefits
+
+10. Conclusion
+
+The demonstration shows the complete working process of LegalEaseAI from user input to AI-generated document output. It demonstrates how Generative AI and web technologies can be combined to create a practical document-generation application.
