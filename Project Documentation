@@ -1,0 +1,89 @@
+07. PROJECT DOCUMENTATION
+
+Project Title
+
+LegalEaseAI – AI-Powered Legal Document Generator
+
+1. Introduction
+
+Project documentation provides complete information about the LegalEaseAI project. It explains the problem, objectives, requirements, design, development, testing, and final outcome.
+
+2. Project Overview
+
+LegalEaseAI is an AI-powered application designed to help users generate structured legal document drafts based on their requirements.
+
+3. Problem Statement
+
+Preparing legal documents manually can require considerable time and knowledge of document formats. Users may find it difficult to prepare a properly structured document.
+
+4. Proposed Solution
+
+LegalEaseAI uses Generative AI to generate structured legal document drafts from user-provided information.
+
+5. Objectives
+
+1. Simplify document generation.
+2. Save time.
+3. Provide a user-friendly application.
+4. Use Generative AI for document generation.
+5. Generate structured document drafts.
+
+6. Technologies Used
+
+1. Python
+2. FastAPI
+3. Jinja2
+4. HTML
+5. CSS
+6. Generative AI
+7. GitHub
+
+7. System Architecture
+
+User
+↓
+Frontend
+↓
+FastAPI
+↓
+Input Processing
+↓
+Generative AI
+↓
+Generated Document
+↓
+Output
+
+8. Implementation
+
+The application is implemented using Python and FastAPI. Jinja2 is used for dynamic templates. The Generative AI model processes the user's requirements and generates the requested document.
+
+9. Testing
+
+The application is tested using different test cases, including valid input, invalid input, empty input, document generation, result display, and download functionality.
+
+10. Screenshots
+
+The documentation should include screenshots of:
+
+1. Home page
+2. Input page
+3. Document selection
+4. Generated output
+5. Final result
+
+11. Conclusion
+
+LegalEaseAI demonstrates how Generative AI can be integrated with a web application to assist users in creating structured legal document drafts. The project combines an easy-to-use interface, FastAPI backend, and AI-based document generation.
+
+12. Future Enhancements
+
+Possible future improvements include:
+
+1. More document types.
+2. Multiple language support.
+3. Improved document formatting.
+4. User authentication.
+5. Document history.
+6. PDF/DOCX export.
+7. Additional validation and review features.
