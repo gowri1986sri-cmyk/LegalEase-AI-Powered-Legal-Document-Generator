@@ -1,0 +1,130 @@
+04. PROJECT PLANNING
+
+Project Title
+
+LegalEaseAI – AI-Powered Legal Document Generator
+
+1. Introduction
+
+Project planning defines the tasks, responsibilities, resources, timeline, and milestones required to complete the LegalEaseAI project successfully.
+
+2. Team Structure
+
+The project consists of four members.
+
+Member 1 – AI and Model Research
+
+Responsibilities:
+
+1. Research suitable Generative AI models.
+2. Design prompts.
+3. Develop document-generation logic.
+4. Test AI-generated output.
+
+Member 2 – Backend Development
+
+Responsibilities:
+
+1. Develop the FastAPI backend.
+2. Create application routes.
+3. Process user input.
+4. Integrate the AI model.
+5. Maintain app.py.
+
+Member 3 – Frontend Development
+
+Responsibilities:
+
+1. Design the user interface.
+2. Create HTML pages.
+3. Develop CSS styling.
+4. Implement Jinja2 templates.
+5. Connect UI with backend.
+
+Member 4 – Testing and Documentation
+
+Responsibilities:
+
+1. Prepare test cases.
+2. Test application features.
+3. Record test results.
+4. Prepare project documentation.
+5. Maintain GitHub files.
+
+3. Project Activities
+
+1. Brainstorming and ideation
+2. Requirement analysis
+3. Project design
+4. Project planning
+5. Application development
+6. Testing
+7. Documentation
+8. Demonstration
+
+4. Resources Required
+
+Software
+
+- Python
+- FastAPI
+- Jinja2
+- HTML
+- CSS
+- Generative AI API/model
+- VS Code
+- GitHub
+
+Hardware
+
+- Computer/Laptop
+- Internet connection
+
+5. Project Timeline
+
+Phase 1
+
+Brainstorming and Ideation
+
+Phase 2
+
+Requirement Analysis
+
+Phase 3
+
+Project Design
+
+Phase 4
+
+Project Planning
+
+Phase 5
+
+Project Development
+
+Phase 6
+
+Project Testing
+
+Phase 7
+
+Project Documentation
+
+Phase 8
+
+Project Demonstration
+
+6. Risk Management
+
+Possible risks include:
+
+1. AI API connection problems.
+2. Incorrect AI-generated output.
+3. Backend errors.
+4. UI errors.
+5. Internet/API availability issues.
+6. Integration problems between frontend and backend.
+
+7. Conclusion
+
+Project planning helps the team divide responsibilities, manage resources, track progress, and complete the LegalEaseAI project in an organized manner.
