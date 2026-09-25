@@ -1,0 +1,108 @@
+05. PROJECT DEVELOPMENT
+
+Project Title
+
+LegalEaseAI – AI-Powered Legal Document Generator
+
+1. Introduction
+
+The development phase is the implementation stage of the project. In this phase, the team develops the frontend, backend, AI integration, and document-generation functionality.
+
+2. Development Environment
+
+The following technologies are used:
+
+1. Python
+2. FastAPI
+3. Uvicorn
+4. Jinja2
+5. HTML
+6. CSS
+7. Generative AI model/API
+8. Git and GitHub
+
+3. Project Structure
+
+LegalEaseAI/
+
+app.py
+
+requirements.txt
+
+templates/
+
+- index.html
+- result.html
+
+static/
+
+- style.css
+
+README.md
+
+4. Backend Development
+
+FastAPI is used to create the backend.
+
+The backend is responsible for:
+
+1. Routing requests.
+2. Receiving user input.
+3. Validating input.
+4. Communicating with the AI model.
+5. Processing AI responses.
+6. Returning the generated document.
+
+5. Main Application Logic
+
+The main application logic is implemented in app.py.
+
+The application:
+
+1. Starts the FastAPI server.
+2. Loads the required templates.
+3. Displays the input page.
+4. Receives user information.
+5. Processes the request.
+6. Sends the prompt to the AI model.
+7. Receives the generated response.
+8. Displays the result.
+
+6. Frontend Development
+
+The frontend is created using HTML and CSS.
+
+It contains:
+
+1. Home page
+2. Input form
+3. Document type selection
+4. Generate button
+5. Result page
+6. Download/save option
+
+7. Jinja2 Templates
+
+Jinja2 is used with FastAPI to create dynamic HTML pages.
+
+It allows the generated AI response to be displayed dynamically on the result page.
+
+8. AI Integration
+
+The selected Generative AI model is integrated into the application.
+
+The user's input is converted into an appropriate prompt. The AI model processes the prompt and returns the generated legal document.
+
+9. GitHub
+
+GitHub is used for:
+
+1. Source-code management.
+2. Version control.
+3. Team collaboration.
+4. Project documentation.
+5. Storing phase-wise project files.
+
+10. Conclusion
+
+The development phase converts the project design and requirements into a working LegalEaseAI application.
