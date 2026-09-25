@@ -1,0 +1,97 @@
+06. PROJECT TESTING
+
+Project Title
+
+LegalEaseAI – AI-Powered Legal Document Generator
+
+1. Introduction
+
+Testing is performed to verify that the LegalEaseAI application works correctly and meets the requirements defined during the requirement analysis phase.
+
+2. Testing Objectives
+
+The main objectives are:
+
+1. Identify errors.
+2. Verify application functionality.
+3. Check user input validation.
+4. Verify AI integration.
+5. Check frontend and backend communication.
+6. Verify the generated output.
+7. Ensure the application works as expected.
+
+3. Test Cases
+
+Test Case 1 – Application Launch
+
+Input:
+Open the application.
+
+Expected Result:
+The home page should be displayed.
+
+Test Case 2 – Document Selection
+
+Input:
+Select a document type.
+
+Expected Result:
+The selected document type should be accepted.
+
+Test Case 3 – User Input
+
+Input:
+Enter valid information.
+
+Expected Result:
+The system should accept the information.
+
+Test Case 4 – Empty Input
+
+Input:
+Submit the form without required information.
+
+Expected Result:
+The system should display an appropriate validation message.
+
+Test Case 5 – Document Generation
+
+Input:
+Enter valid details and click Generate.
+
+Expected Result:
+The AI-generated document should be displayed.
+
+Test Case 6 – Result Display
+
+Input:
+Generate a document.
+
+Expected Result:
+The generated content should appear on the result page.
+
+Test Case 7 – Download
+
+Input:
+Click the download/save option.
+
+Expected Result:
+The generated document should be saved/downloaded successfully.
+
+4. Error Handling
+
+The application should handle:
+
+1. Empty input.
+2. Invalid input.
+3. API errors.
+4. Network errors.
+5. Unexpected AI responses.
+
+5. Testing Result
+
+After testing, identified errors should be corrected and the application should be tested again.
+
+6. Conclusion
+
+Testing ensures that LegalEaseAI works correctly, handles user input properly, generates the required output, and provides a reliable user experience.
