@@ -1,0 +1,81 @@
+02. REQUIREMENT ANALYSIS
+
+Project Title
+
+LegalEaseAI – AI-Powered Legal Document Generator
+
+1. Introduction
+
+Requirement analysis is the process of identifying and documenting what the LegalEaseAI system should do. It helps the development team understand the functional, non-functional, technical, and user requirements before development begins.
+
+2. Functional Requirements
+
+The system should:
+
+1. Allow users to access the application.
+2. Allow users to select a document type.
+3. Allow users to enter required information.
+4. Accept and validate user input.
+5. Send the input to the backend.
+6. Process the request using the selected Generative AI model.
+7. Generate a structured legal document.
+8. Display the generated document.
+9. Allow the user to review the generated document.
+10. Provide an option to download or save the document.
+
+3. Non-Functional Requirements
+
+The system should:
+
+1. Have a simple and user-friendly interface.
+2. Provide reasonable response time.
+3. Handle invalid input properly.
+4. Provide reliable document generation.
+5. Protect user-provided information appropriately.
+6. Be easy to maintain and update.
+7. Work correctly in a supported web browser.
+
+4. Hardware Requirements
+
+1. Computer or laptop
+2. Minimum 4 GB RAM
+3. Internet connection
+4. Keyboard and mouse
+
+5. Software Requirements
+
+1. Python
+2. FastAPI
+3. Uvicorn
+4. Jinja2
+5. HTML
+6. CSS
+7. Generative AI API/model
+8. Visual Studio Code
+9. Git
+10. GitHub
+
+6. User Requirements
+
+The user should be able to:
+
+1. Open the application.
+2. Select the required document type.
+3. Enter the necessary details.
+4. Generate the document.
+5. View the generated result.
+6. Download or save the result.
+
+7. Project Scope
+
+The project focuses on generating structured legal document drafts using Generative AI based on user-provided information.
+
+8. Project Limitations
+
+1. The generated document should be reviewed by the user.
+2. The application is intended for document generation assistance and not as a replacement for professional legal advice.
+3. Output quality depends on the information provided by the user and the selected AI model.
+
+9. Conclusion
+
+Requirement analysis provides a clear understanding of what the LegalEaseAI application needs to accomplish. These requirements will be used as the foundation for designing and developing the system.
