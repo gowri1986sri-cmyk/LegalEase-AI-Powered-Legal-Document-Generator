@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>LegalEaseAI</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', path='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>⚖️ LegalEaseAI</h1>
+
+        <h2>AI-Powered Legal Document Generator</h2>
+
+        <p>
+            Generate customizable legal document drafts
+            using Generative AI.
+        </p>
+
+        <form action="/generate"
+              method="post">
+
+            <label>Document Type</label>
+
+            <select name="document_type" required>
+
+                <option value="">
+                    Select Document Type
+                </option>
+
+                <option value="Employment Contract">
+                    Employment Contract
+                </option>
+
+                <option value="Non-Disclosure Agreement">
+                    Non-Disclosure Agreement
+                </option>
+
+                <option value="Lease Agreement">
+                    Lease Agreement
+                </option>
+
+                <option value="Rental Agreement">
+                    Rental Agreement
+                </option>
+
+                <option value="General Legal Agreement">
+                    General Legal Agreement
+                </option>
+
+            </select>
+
+
+            <label>Parties Involved</label>
+
+            <textarea
+                name="parties"
+                placeholder="Example: ABC Company and John Doe"
+                required></textarea>
+
+
+            <label>Terms and Conditions</label>
+
+            <textarea
+                name="terms"
+                placeholder="Enter the terms and conditions..."
+                required></textarea>
+
+
+            <label>Effective Date</label>
+
+            <input
+                type="text"
+                name="effective_date"
+                placeholder="Example: 1 October 2026"
+                required>
+
+
+            <button type="submit">
+                Generate Legal Document
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
