@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Generated Document - LegalEaseAI</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', path='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>⚖️ LegalEaseAI</h1>
+
+        <h2>Generated Legal Document</h2>
+
+        <p>
+            Document Type:
+            <strong>{{ document_type }}</strong>
+        </p>
+
+        <textarea
+            class="document-box"
+            readonly>{{ generated_document }}</textarea>
+
+        <button
+            onclick="downloadDocument()">
+            Download Document
+        </button>
+
+        <br><br>
+
+        <a href="/">
+            ← Create Another Document
+        </a>
+
+    </div>
+
+
+    <script>
+
+        function downloadDocument() {
+
+            const documentText =
+                document.querySelector(
+                    ".document-box"
+                ).value;
+
+            const blob = new Blob(
+                [documentText],
+                {
+                    type: "text/plain"
+                }
+            );
+
+            const link =
+                document.createElement("a");
+
+            link.href =
+                URL.createObjectURL(blob);
+
+            link.download =
+                "LegalEaseAI_Document.txt";
+
+            link.click();
+
+            URL.revokeObjectURL(
+                link.href
+            );
+        }
+
+    </script>
+
+</body>
+
+</html>
